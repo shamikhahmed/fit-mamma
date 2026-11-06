@@ -1,0 +1,1538 @@
+{
+ "days": {
+  "push": [
+   {
+    "code": "1",
+    "name": "Chest press machine",
+    "muscle": "Chest, triceps",
+    "sets": [
+     [
+      "Warm-up",
+      "12",
+      "Very light, learn the move"
+     ],
+     [
+      "Set 1",
+      "10-12",
+      "Light: 3-4 reps left in the tank"
+     ],
+     [
+      "Set 2",
+      "10-12",
+      "Same weight, or one step up"
+     ],
+     [
+      "Top set",
+      "10-12, 2 short",
+      "Heaviest you can do with good form"
+     ]
+    ],
+    "rest": "90 sec.",
+    "cues": [
+     "Seat so handles are at mid-chest",
+     "Push out, do not lock elbows hard",
+     "Slow on the way back"
+    ],
+    "why": "The safest way to build chest strength. Goes first while you are fresh.",
+    "alts": [
+     "Dumbbell bench press",
+     "Push-ups on a bench"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=chest+press+machine+kaise+kare+hindi",
+    "media": "0577-T0yTjgW",
+    "warmupSet": true,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "2",
+    "name": "Incline dumbbell press",
+    "muscle": "Upper chest, front delts",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "90 sec.",
+    "cues": [
+     "Bench at 30 degrees",
+     "Dumbbells over the chest at the top",
+     "Elbows slightly in, not flared"
+    ],
+    "why": "Upper chest gives a lifted look and helps posture.",
+    "alts": [
+     "Incline chest press machine",
+     "Smith incline press"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Incline+dumbbell+press+kaise+kare+hindi",
+    "media": "0314-ns0SIbU",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "3",
+    "name": "Pec deck",
+    "muscle": "Chest",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Slight bend in the elbows",
+     "Squeeze 1 sec in the middle",
+     "Shoulders down"
+    ],
+    "why": "Works the chest without loading the shoulders or wrists.",
+    "alts": [
+     "Cable fly",
+     "Dumbbell fly"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=pec+deck+fly+kaise+kare+hindi",
+    "media": "0596-v3xmPAR",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "4",
+    "name": "Rope triceps pushdown",
+    "muscle": "Triceps",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Elbows pinned to your sides",
+     "Split the rope at the bottom",
+     "Control up"
+    ],
+    "why": "Firms the back of the upper arm.",
+    "alts": [
+     "Straight bar pushdown",
+     "Bench dip, knees bent"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=tricep+rope+pushdown+kaise+kare+hindi",
+    "media": "0200-dU605di",
+    "warmupSet": false,
+    "note": null,
+    "pair": "Pair 1 (with 5)"
+   },
+   {
+    "code": "5",
+    "name": "Overhead cable triceps extension",
+    "muscle": "Triceps",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Face away from the cable",
+     "Elbows near your head",
+     "Full stretch, then straighten"
+    ],
+    "why": "Long-head triceps: the part that tightens the arm most.",
+    "alts": [
+     "Seated dumbbell overhead extension"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=overhead+tricep+extension+kaise+kare+hindi",
+    "media": "0194-2IxROQ1",
+    "warmupSet": false,
+    "note": null,
+    "pair": "Pair 1 (with 4)"
+   },
+   {
+    "code": "6",
+    "name": "Dumbbell kickback",
+    "muscle": "Triceps",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Hand on a bench, back flat",
+     "Upper arm still, only the forearm moves"
+    ],
+    "why": "A light finisher for the arms.",
+    "alts": [
+     "Cable kickback"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=dumbbell+tricep+kickback+kaise+kare+hindi",
+    "media": "0333-W6PxUkg",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   }
+  ],
+  "pull": [
+   {
+    "code": "1",
+    "name": "Lat pulldown",
+    "muscle": "Lats, biceps",
+    "sets": [
+     [
+      "Warm-up",
+      "12",
+      "Very light, learn the move"
+     ],
+     [
+      "Set 1",
+      "10-12",
+      "Light: 3-4 reps left in the tank"
+     ],
+     [
+      "Set 2",
+      "10-12",
+      "Same weight, or one step up"
+     ],
+     [
+      "Top set",
+      "10-12, 2 short",
+      "Heaviest you can do with good form"
+     ]
+    ],
+    "rest": "90 sec.",
+    "cues": [
+     "Hands a little wider than shoulders",
+     "Pull to upper chest",
+     "Chest up, no swinging"
+    ],
+    "why": "Builds the back muscles that pull the shoulders back and slim the waist look.",
+    "alts": [
+     "Assisted pull-up machine",
+     "Band pulldown"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Lat+pulldown+kaise+kare+hindi",
+    "media": "0198-RVwzP10",
+    "warmupSet": true,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "2",
+    "name": "Seated cable row",
+    "muscle": "Mid back, lats",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "90 sec.",
+    "cues": [
+     "Sit tall",
+     "Pull handle to your belly",
+     "Squeeze shoulder blades together"
+    ],
+    "why": "Fixes rounded shoulders from phone and kitchen work.",
+    "alts": [
+     "Seated row machine",
+     "Dumbbell row"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Seated+cable+row+kaise+kare+hindi",
+    "media": "0861-fUBheHs",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "3",
+    "name": "Seated row machine",
+    "muscle": "Mid back",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Chest on the pad",
+     "Elbows back, close to the body"
+    ],
+    "why": "Chest support means no strain on the lower back.",
+    "alts": [
+     "One-arm dumbbell row"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Seated+row+machine+kaise+kare+hindi",
+    "media": "1350-7I6LNUG",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "4",
+    "name": "Rear delt fly machine",
+    "muscle": "Rear delts, upper back",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Arms nearly straight",
+     "Open wide, squeeze 1 sec"
+    ],
+    "why": "Small muscle, big effect on posture.",
+    "alts": [
+     "Band pull-apart"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=reverse+pec+deck+rear+delt+kaise+kare+hindi",
+    "media": "2292-mu5Guxt",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "5",
+    "name": "Dumbbell curl",
+    "muscle": "Biceps",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Elbows by your sides",
+     "No swinging",
+     "3 sec down"
+    ],
+    "why": "Strong arms for carrying shopping and grandchildren.",
+    "alts": [
+     "Cable curl",
+     "Preacher curl machine"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Dumbbell+curl+kaise+kare+hindi",
+    "media": "0294-NbVPDMW",
+    "warmupSet": false,
+    "note": null,
+    "pair": "Pair 1 (with 6)"
+   },
+   {
+    "code": "6",
+    "name": "Hammer curl",
+    "muscle": "Biceps, brachialis, forearm",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Palms face each other",
+     "Slow and steady"
+    ],
+    "why": "Builds forearm and grip strength too.",
+    "alts": [
+     "Rope cable hammer curl"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Hammer+curl+kaise+kare+hindi",
+    "media": "0313-slDvUAU",
+    "warmupSet": false,
+    "note": null,
+    "pair": "Pair 1 (with 5)"
+   }
+  ],
+  "legs": [
+   {
+    "code": "1",
+    "name": "Leg press",
+    "muscle": "Quads, glutes",
+    "sets": [
+     [
+      "Warm-up",
+      "12",
+      "Very light, learn the move"
+     ],
+     [
+      "Set 1",
+      "10-12",
+      "Light: 3-4 reps left in the tank"
+     ],
+     [
+      "Set 2",
+      "10-12",
+      "Same weight, or one step up"
+     ],
+     [
+      "Top set",
+      "10-12, 2 short",
+      "Heaviest you can do with good form"
+     ]
+    ],
+    "rest": "90 sec.",
+    "cues": [
+     "Feet shoulder-width, middle of the plate",
+     "Knees follow toes",
+     "Lower until knees are near 90 degrees, no lower back lift"
+    ],
+    "why": "Big leg muscles burn the most energy. The machine keeps the back safe.",
+    "alts": [
+     "Goblet squat to a bench",
+     "Smith machine squat"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Leg+press+kaise+kare+hindi",
+    "media": "0739-10Z2DXU",
+    "warmupSet": true,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "2",
+    "name": "Goblet squat to bench",
+    "muscle": "Quads, glutes",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "90 sec.",
+    "cues": [
+     "Hold one dumbbell at the chest",
+     "Sit back to touch the bench",
+     "Stand up through the heels"
+    ],
+    "why": "Teaches a safe squat for daily life: chairs, floor, stairs.",
+    "alts": [
+     "Bodyweight box squat"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=goblet+squat+kaise+kare+hindi",
+    "media": "0534-ZA8b5hc",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "3",
+    "name": "Leg extension",
+    "muscle": "Quads",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Pad on the lower shin",
+     "Straighten slowly, squeeze 1 sec"
+    ],
+    "why": "Strong quads protect the knees.",
+    "alts": [
+     "Spanish squat with band"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Leg+extension+kaise+kare+hindi",
+    "media": "0585-my33uHU",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "4",
+    "name": "Seated leg curl",
+    "muscle": "Hamstrings",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Pad just above the heels",
+     "Curl down, slow up"
+    ],
+    "why": "Balances the front of the leg and protects the knees.",
+    "alts": [
+     "Lying leg curl"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Seated+leg+curl+kaise+kare+hindi",
+    "media": "0599-Zg3XY7P",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "5",
+    "name": "Hip adductor machine",
+    "muscle": "Inner thigh",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Sit tall",
+     "Squeeze legs together, slow open"
+    ],
+    "why": "Tones the inner thigh and helps hip stability.",
+    "alts": [
+     "Cable hip adduction"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=hip+adductor+machine+kaise+kare+hindi",
+    "media": "0598-oHsrypV",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "6",
+    "name": "Standing calf raise",
+    "muscle": "Calves",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Hold a rail for balance",
+     "Up on toes, 1 sec pause, slow down"
+    ],
+    "why": "Helps balance and circulation.",
+    "alts": [
+     "Seated calf raise",
+     "Calf raise on a step"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Standing+calf+raise+kaise+kare+hindi",
+    "media": "1372-8ozhUIZ",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   }
+  ],
+  "upper": [
+   {
+    "code": "1",
+    "name": "Shoulder press machine",
+    "muscle": "Front delts, triceps",
+    "sets": [
+     [
+      "Warm-up",
+      "12",
+      "Very light, learn the move"
+     ],
+     [
+      "Set 1",
+      "10-12",
+      "Light: 3-4 reps left in the tank"
+     ],
+     [
+      "Set 2",
+      "10-12",
+      "Same weight, or one step up"
+     ],
+     [
+      "Top set",
+      "10-12, 2 short",
+      "Heaviest you can do with good form"
+     ]
+    ],
+    "rest": "90 sec.",
+    "cues": [
+     "Handles at shoulder height",
+     "Press up, do not shrug",
+     "Stop if the shoulder pinches"
+    ],
+    "why": "Strong shoulders make lifting things overhead easy and safe.",
+    "alts": [
+     "Seated dumbbell press"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=shoulder+press+machine+kaise+kare+hindi",
+    "media": "0603-67n3r98",
+    "warmupSet": true,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "2",
+    "name": "Dumbbell lateral raise",
+    "muscle": "Side delts",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Light weight",
+     "Lift to shoulder height, elbows soft",
+     "Lead with the elbows"
+    ],
+    "why": "Gives the shoulders shape so the waist looks smaller.",
+    "alts": [
+     "Cable lateral raise"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Dumbbell+lateral+raise+kaise+kare+hindi",
+    "media": "0334-DsgkuIt",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "3",
+    "name": "Cable front raise",
+    "muscle": "Front delts",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Arm straight, lift to eye level",
+     "Slow down"
+    ],
+    "why": "Rounds out the shoulder.",
+    "alts": [
+     "Plate front raise"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Cable+front+raise+kaise+kare+hindi",
+    "media": "0162-u2X71Np",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "4",
+    "name": "Cable crunch",
+    "muscle": "Abs",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Slow and controlled"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same"
+     ],
+     [
+      "Set 3",
+      "12-15",
+      "Same"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Kneel, rope by your head",
+     "Curl the ribs to the hips",
+     "Hips stay still"
+    ],
+    "why": "Tightens the belly from the inside out.",
+    "alts": [
+     "Crunch on a mat"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Cable+crunch+kaise+kare+hindi",
+    "media": "0175-WW95auq",
+    "warmupSet": false,
+    "note": null,
+    "pair": "Pair 1 (with 5)"
+   },
+   {
+    "code": "5",
+    "name": "Dead bug",
+    "muscle": "Core",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Slow and controlled"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same"
+     ],
+     [
+      "Set 3",
+      "12-15",
+      "Same"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Lie on your back, lower back pressed down",
+     "Opposite arm and leg out slowly"
+    ],
+    "why": "Safe core strength for the lower back.",
+    "alts": [
+     "Plank on knees"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=dead+bug+exercise+kaise+kare+hindi",
+    "media": "0276-iny3m5y",
+    "warmupSet": false,
+    "note": null,
+    "pair": "Pair 1 (with 4)"
+   },
+   {
+    "code": "6",
+    "name": "Side bend with dumbbell",
+    "muscle": "Obliques",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Slow and controlled"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same"
+     ],
+     [
+      "Set 3",
+      "12-15",
+      "Same"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Stand tall, one dumbbell",
+     "Bend sideways only, no twisting"
+    ],
+    "why": "Works the sides of the waist.",
+    "alts": [
+     "Side plank on knees"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=dumbbell+side+bend+kaise+kare+hindi",
+    "media": "0002-Hy9D21L",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   }
+  ],
+  "lower": [
+   {
+    "code": "1",
+    "name": "Hip thrust machine",
+    "muscle": "Glutes, hamstrings",
+    "sets": [
+     [
+      "Warm-up",
+      "12",
+      "Very light, learn the move"
+     ],
+     [
+      "Set 1",
+      "10-12",
+      "Light: 3-4 reps left in the tank"
+     ],
+     [
+      "Set 2",
+      "10-12",
+      "Same weight, or one step up"
+     ],
+     [
+      "Top set",
+      "10-12, 2 short",
+      "Heaviest you can do with good form"
+     ]
+    ],
+    "rest": "90 sec.",
+    "cues": [
+     "Upper back on the bench",
+     "Drive hips up, squeeze 1 sec",
+     "Chin tucked"
+    ],
+    "why": "Strongest glute builder. Helps the lower back and posture.",
+    "alts": [
+     "Barbell glute bridge",
+     "Glute bridge on the floor"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=hip+thrust+kaise+kare+hindi",
+    "media": "1409-qKBpF7I",
+    "warmupSet": true,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "2",
+    "name": "Dumbbell Romanian deadlift",
+    "muscle": "Hamstrings, glutes",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "90 sec.",
+    "cues": [
+     "Soft knees",
+     "Push hips back, dumbbells slide down the legs",
+     "Back stays flat"
+    ],
+    "why": "Teaches safe bending to pick things up.",
+    "alts": [
+     "Cable pull-through"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=dumbbell+romanian+deadlift+kaise+kare+hindi",
+    "media": "1459-rR0LJzx",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "3",
+    "name": "Lat pulldown, close grip",
+    "muscle": "Lats, biceps",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Neutral handle",
+     "Pull to upper chest"
+    ],
+    "why": "Full-body day keeps the back working too.",
+    "alts": [
+     "Seated cable row"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=close+grip+lat+pulldown+kaise+kare+hindi",
+    "media": "2616-4c9BhzB",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "4",
+    "name": "Chest press machine, light",
+    "muscle": "Chest, triceps",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Lighter than Monday",
+     "Smooth reps"
+    ],
+    "why": "A second, lighter chest hit for the week.",
+    "alts": [
+     "Push-ups on a bench"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=chest+press+machine+kaise+kare+hindi",
+    "media": "0577-T0yTjgW",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "5",
+    "name": "Hip abductor machine",
+    "muscle": "Glute medius",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Sit tall",
+     "Push knees out, slow back"
+    ],
+    "why": "Side glutes keep the knees and hips stable when walking.",
+    "alts": [
+     "Band side walk"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=hip+abductor+machine+kaise+kare+hindi",
+    "media": "0597-CHpahtl",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "6",
+    "name": "Cable glute kickback",
+    "muscle": "Glutes",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Light"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same weight"
+     ],
+     [
+      "Top set",
+      "12-15, 2 short",
+      "Last reps feel hard, form stays clean"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Hold the frame",
+     "Kick back, squeeze, no back arch"
+    ],
+    "why": "Shapes the glutes.",
+    "alts": [
+     "Donkey kick on a mat"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=cable+glute+kickback+kaise+kare+hindi",
+    "media": "0860-HEJ6DIX",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "7",
+    "name": "Farmer walk",
+    "muscle": "Grip, core",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Slow and controlled"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same"
+     ],
+     [
+      "Set 3",
+      "12-15",
+      "Same"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Two dumbbells, stand tall",
+     "Walk 30 metres, slow steps"
+    ],
+    "why": "Real-life strength: carrying bags.",
+    "alts": [
+     "Suitcase carry, one hand"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=farmer+walk+kaise+kare+hindi",
+    "media": "2133-qPEzJjA",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   }
+  ],
+  "arms": [
+   {
+    "code": "1",
+    "name": "Brisk walk",
+    "muscle": "Heart, legs",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Slow and controlled"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same"
+     ],
+     [
+      "Set 3",
+      "12-15",
+      "Same"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "30-45 min, outside or treadmill",
+     "Pace where you can talk but not sing"
+    ],
+    "why": "Saturday is walking day: fat loss without tiring the muscles.",
+    "alts": [
+     "Treadmill incline walk",
+     "Elliptical"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=brisk+walking+kaise+kare+hindi",
+    "media": "3666-rjiM4L3",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "2",
+    "name": "Glute bridge",
+    "muscle": "Glutes",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Slow and controlled"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same"
+     ],
+     [
+      "Set 3",
+      "12-15",
+      "Same"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "On a mat, feet flat",
+     "Squeeze up, 2 sec hold"
+    ],
+    "why": "Easy home toning after the walk.",
+    "alts": [
+     "Single-leg bridge"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Glute+bridge+kaise+kare+hindi",
+    "media": "3013-u0cNiij",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   },
+   {
+    "code": "3",
+    "name": "Wall push-up",
+    "muscle": "Chest, triceps",
+    "sets": [
+     [
+      "Set 1",
+      "12-15",
+      "Slow and controlled"
+     ],
+     [
+      "Set 2",
+      "12-15",
+      "Same"
+     ],
+     [
+      "Set 3",
+      "12-15",
+      "Same"
+     ]
+    ],
+    "rest": "60 sec.",
+    "cues": [
+     "Hands on a wall at chest height",
+     "Body straight"
+    ],
+    "why": "Gentle arm and chest work at home.",
+    "alts": [
+     "Push-up on a bench"
+    ],
+    "advanced": "Top set: pause 1 second at the hardest point of every rep.",
+    "blockB": null,
+    "demo": "https://www.youtube.com/results?search_query=Wall+push-up+kaise+kare+hindi",
+    "media": "0659-LEH9jxP",
+    "warmupSet": false,
+    "note": null,
+    "pair": null
+   }
+  ]
+ },
+ "cardio": {
+  "push": {
+   "title": "Incline walk, 15 min",
+   "how": [
+    "Treadmill 4.5-5.0 km/h, incline 5-8%",
+    "You can talk, but not sing",
+    "Or bike / elliptical, same time"
+   ]
+  },
+  "pull": {
+   "title": "Incline walk, 15 min",
+   "how": [
+    "Treadmill 4.5-5.0 km/h, incline 5-8%",
+    "You can talk, but not sing",
+    "Or bike / elliptical, same time"
+   ]
+  },
+  "legs": {
+   "title": "Incline walk, 10 min",
+   "how": [
+    "Treadmill 4.5-5.0 km/h, incline 5-8%",
+    "You can talk, but not sing",
+    "Or bike / elliptical, same time"
+   ]
+  },
+  "upper": {
+   "title": "Incline walk, 15 min",
+   "how": [
+    "Treadmill 4.5-5.0 km/h, incline 5-8%",
+    "You can talk, but not sing",
+    "Or bike / elliptical, same time"
+   ]
+  },
+  "lower": {
+   "title": "Incline walk, 10 min",
+   "how": [
+    "Treadmill 4.5-5.0 km/h, incline 5-8%",
+    "You can talk, but not sing",
+    "Or bike / elliptical, same time"
+   ]
+  },
+  "arms": {
+   "title": "Walk is the session today",
+   "how": [
+    "30-45 min brisk walk counts as cardio"
+   ]
+  }
+ },
+ "warmupBase": [
+  [
+   "Treadmill or bike",
+   "5 min",
+   "Easy pace, just get warm."
+  ],
+  [
+   "Arm circles",
+   "10 each way",
+   "Small to big."
+  ],
+  [
+   "Cat-cow",
+   "8 reps",
+   "Round your back up, then let it sag."
+  ]
+ ],
+ "warmupUpper": [
+  [
+   "Band pull-apart",
+   "15 reps",
+   "Arms straight, pull to the chest."
+  ],
+  [
+   "Wall push-up",
+   "10 reps",
+   "Slow."
+  ]
+ ],
+ "warmupLower": [
+  [
+   "Leg swings",
+   "10 each leg",
+   "Hold the wall."
+  ],
+  [
+   "Bodyweight squat to a bench",
+   "10 reps",
+   "Sit back, stand up."
+  ],
+  [
+   "Glute bridge",
+   "12 reps",
+   "Squeeze at the top."
+  ]
+ ],
+ "cooldownUpper": [
+  [
+   "Lat stretch",
+   "30 sec each side"
+  ],
+  [
+   "Overhead triceps stretch",
+   "30 sec each"
+  ],
+  [
+   "Doorway chest stretch, gentle",
+   "30 sec each"
+  ],
+  [
+   "Neck side stretch",
+   "30 sec each"
+  ],
+  [
+   "Child's pose",
+   "45 sec"
+  ]
+ ],
+ "cooldownLower": [
+  [
+   "Kneeling hip flexor stretch",
+   "30 sec each"
+  ],
+  [
+   "Hamstring stretch",
+   "30 sec each"
+  ],
+  [
+   "Standing quad stretch",
+   "30 sec each"
+  ],
+  [
+   "Figure-4 glute stretch",
+   "30 sec each"
+  ],
+  [
+   "Calf stretch on a wall",
+   "30 sec each"
+  ]
+ ],
+ "satOption2": {
+  "title": "Walk + stretch",
+  "blocks": [
+   [
+    "Walk, 30-45 min",
+    "Brisk pace, outside early morning or treadmill."
+   ],
+   [
+    "Stretch, 10 min",
+    "Hamstring stretch 30 sec/side · Calf stretch 30 sec/side · Child's pose 60 sec · Neck side stretch 30 sec/side."
+   ]
+  ]
+ },
+ "pdf": {},
+ "birthdayPump": {
+  "title": "Eid week: light and happy",
+  "when": "From 1 Ramadan to Eid: train after iftar, 30-40 min, lighter weights.",
+  "moves": [
+   [
+    "Treadmill walk",
+    "15 min"
+   ],
+   [
+    "Chest press machine",
+    "2 x 12"
+   ],
+   [
+    "Lat pulldown",
+    "2 x 12"
+   ],
+   [
+    "Leg press",
+    "2 x 12"
+   ],
+   [
+    "Glute bridge",
+    "2 x 15"
+   ]
+  ],
+  "after": "Water and a protein snack after the session. Eid photos on the day!"
+ }
+}

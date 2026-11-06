@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F08AA5"/>
+      <stop offset="1" stop-color="#B2355A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.22" r="0.6">
+      <stop offset="0" stop-color="#FFF4EC" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFF4EC" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#6E1F38" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+
+  <!-- heart -->
+  <path filter="url(#soft)" fill="#FFF8F2"
+        d="M512 842 C 470 806, 214 640, 180 452 C 152 300, 250 196, 372 196 C 440 196, 488 232, 512 276 C 536 232, 584 196, 652 196 C 774 196, 872 300, 844 452 C 810 640, 554 806, 512 842 Z"/>
+
+  <!-- downward trend inside the heart, ending at the goal dot -->
+  <path d="M300 410 L 420 410 L 500 520 L 590 470 L 700 600"
+        fill="none" stroke="#C8456B" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="300" cy="410" r="34" fill="#FFF8F2" stroke="#C8456B" stroke-width="20"/>
+  <circle cx="700" cy="600" r="50" fill="#2A7F8F"/>
+  <circle cx="700" cy="600" r="20" fill="#FFF8F2"/>
+</svg>

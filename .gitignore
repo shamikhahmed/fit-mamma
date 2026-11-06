@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.claude/settings.local.json
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+dev-dist
+
+# QA screenshots only — do NOT blanket-ignore *.png or gh-pages drops
+# apple-touch-icon / pwa-*.png from the Pages deploy (iPhone home-screen icon 404).
+qa-*.png
+qa-sim-*.png
+qa-live/**/*.png
+
+# Capacitor / Xcode
+ios/App/Pods
+ios/App/App/public/hot
+ios/DerivedData
+**/xcuserdata/
+*.xcuserstate
+.DS_Store

@@ -1,0 +1,114 @@
+:root {
+  /* Fit Mamma — warm light: cream paper, rose focal accent, teal support */
+  --bg-deep: #fbf5ef;
+  --bg: #fbf5ef;
+  --bg-elevated: #ffffff;
+  --bg-hover: #f6ebe2;
+  --bg-sunken: #f4e9df;
+  --bg-panel: #ffffff;
+  --border: #ead9cc;
+  --border-subtle: #f1e4d9;
+  --separator: rgba(92, 60, 45, 0.14);
+
+  --text: #2e2420;
+  --text-muted: #6e5d55;
+  --text-dim: #9a877d;
+
+  /* Rose — progress & primary actions */
+  --accent: #c8456b;
+  --accent-soft: rgba(200, 69, 107, 0.12);
+  --accent-strong: #b23558;
+  --accent-ink: #ffffff;
+  --accent-glow: rgba(200, 69, 107, 0.12);
+
+  --success: #2e8a6a;
+  --warning: #b97800;
+  --danger: #c9343f;
+  --info: #2a7f8f;
+
+--radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --inset: 16px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --nav-height: 58px;
+  --nav-total-height: calc(var(--nav-height) + var(--safe-bottom));
+  --sidebar-width: 248px;
+  --touch: 44px;
+
+  /* Apple system typography — no bundled SF Pro files */
+  --font-system:
+    -apple-system,
+    BlinkMacSystemFont,
+    'SF Pro Text',
+    'SF Pro Display',
+    'Segoe UI',
+    system-ui,
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    sans-serif;
+  --font-display: var(--font-system);
+  --font-body: var(--font-system);
+  --font-mono:
+    ui-monospace,
+    'SF Mono',
+    Menlo,
+    Consolas,
+    'Liberation Mono',
+    monospace;
+
+  --text-caption: 0.8125rem;
+  --text-footnote: 0.875rem;
+  --text-xs: 0.875rem;
+  --text-sm: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.3125rem;
+  --text-xl: 1.5rem;
+  --text-title: 1.75rem;
+  --text-metric: 1.625rem;
+  --text-hero: clamp(1.85rem, 6vw, 2.25rem);
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.3;
+  --leading-body: 1.47;
+  --tracking-tight: -0.022em;
+  --tracking-normal: -0.011em;
+
+  --shadow: 0 12px 28px rgba(92, 60, 45, 0.1);
+  --shadow-soft: 0 2px 10px rgba(92, 60, 45, 0.07);
+  --shadow-glow: none;
+  --ring: 0 0 0 3px var(--accent-soft);
+
+  --motion-fast: 140ms;
+  --motion-base: 220ms;
+  --motion-hero: 400ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-press: cubic-bezier(0.3, 0.7, 0.4, 1);
+
+  color-scheme: light;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
