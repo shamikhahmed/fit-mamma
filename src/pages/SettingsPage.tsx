@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { OPEN_TOUR_EVENT } from '../components/AppTour';
+import { useT } from '../i18n/useT';
 import { Capacitor } from '@capacitor/core';
 import { formatDistanceToNow } from 'date-fns';
 import { FoodLibraryManager } from '../components/FoodLibraryManager';
@@ -82,6 +84,7 @@ function SupplementStackEditor({
 }
 
 export function SettingsPage() {
+  const t = useT();
   const settings = useAppStore((s) => s.settings);
   const refreshSettings = useAppStore((s) => s.refreshSettings);
   const setToast = useAppStore((s) => s.setToast);
@@ -238,6 +241,9 @@ export function SettingsPage() {
           value={String(settings.stepsTarget)}
           onCommit={(v) => void save({ stepsTarget: Number(v), stepsTargetFollowsPlan: false })}
         />
+        <button type="button" className="btn" onClick={() => window.dispatchEvent(new Event(OPEN_TOUR_EVENT))}>
+          {t('Take the tour')}
+        </button>
         <label className="row">
           <input
             type="checkbox"

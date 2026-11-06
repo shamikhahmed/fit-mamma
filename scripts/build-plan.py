@@ -13,7 +13,7 @@ import sys
 import urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-MEDIA = json.loads(pathlib.Path(sys.argv[1]).read_text()) if len(sys.argv) > 1 else {}
+MEDIA = {n: m for n, m, _ in json.loads(pathlib.Path(sys.argv[1]).read_text())} if len(sys.argv) > 1 else {}
 
 
 def demo(q):
@@ -50,7 +50,7 @@ def ex(code, name, muscle, kind, rest, cues, why, alts, gif=None, demo_q=None, p
         'advanced': 'Top set: pause 1 second at the hardest point of every rep.',
         'blockB': None,
         'demo': demo(demo_q or name),
-        'media': MEDIA.get(gif or name),
+        # animations: src/domain/exerciseMedia.json (scripts/build-media-map.py), checked by eye
         'warmupSet': kind == 'main',
         'note': note,
         'pair': pair,

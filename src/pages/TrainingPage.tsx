@@ -8,6 +8,12 @@ import { parseRestSeconds } from '../domain/restTimer';
 import { carryOver, skipOptions, type SkipChoice } from '../domain/skipDay';
 import { MuscleRecoveryGrid } from '../components/MuscleRecoveryGrid';
 import { ExerciseGif } from '../components/ExerciseGif';
+import { SwapPanel } from '../components/SwapPanel';
+import { SafetyNote } from '../components/SafetyNote';
+import { WorkoutPlayer } from '../components/WorkoutPlayer';
+import type { PlayerExercise } from '../domain/workoutPlayer';
+import { WarmupList } from '../components/WarmupList';
+import { demoUrl } from '../domain/exerciseMedia';
 import { workoutSticker } from '../domain/stickers';
 import { shouldForceBasic } from '../health/scores';
 import {
@@ -22,7 +28,6 @@ import {
   type PlanPhase,
 } from '../domain/plan';
 import {
-  SWAP_REASONS,
   fallbackFor,
   orderedAlternatives,
   reasonLabel,
@@ -60,18 +65,17 @@ interface PlanExercise {
   advanced: string | null;
   blockB: string | null;
   demo: string;
-  media?: string | null;
   warmupSet: boolean;
   note: string | null;
   pair: string | null;
 }
 
 const BASE_DAYS: { key: DayKey; label: string; session: string }[] = [
-  { key: 'push', label: 'Mon · Chest', session: 'Chest & Triceps' },
-  { key: 'pull', label: 'Tue · Back', session: 'Back & Biceps' },
+  { key: 'push', label: 'Mon · Chest & Triceps', session: 'Chest & Triceps' },
+  { key: 'pull', label: 'Tue · Back & Biceps', session: 'Back & Biceps' },
   { key: 'legs', label: 'Wed · Legs', session: 'Legs' },
-  { key: 'upper', label: 'Thu · Shoulders', session: 'Shoulders & Abs' },
-  { key: 'lower', label: 'Fri · Full body', session: 'Full body & Glutes' },
+  { key: 'upper', label: 'Thu · Shoulders & Abs', session: 'Shoulders & Abs' },
+  { key: 'lower', label: 'Fri · Full body & Glutes', session: 'Full body & Glutes' },
   { key: 'arms', label: 'Sat · Walk', session: 'Walk + toning' },
   { key: 'core', label: 'Sat · Stretch', session: 'Walk + stretch' },
   { key: 'rest', label: 'Rest', session: 'Rest' },
@@ -101,6 +105,7 @@ export function TrainingPage() {
   const [history, setHistory] = useState<WorkoutEntry[]>([]);
   const [rest, setRest] = useState<RestState>(null);
   const [swaps, setSwaps] = useState<ActiveSwapMap>({});
+  const [playing, setPlaying] = useState(false);
   const [lastNightSleepH, setLastNightSleepH] = useState<number | null>(null);
   const [todayRecovery, setTodayRecovery] = useState<number | null>(null);
   const [todayStrain, setTodayStrain] = useState<number | null>(null);
@@ -171,6 +176,18 @@ export function TrainingPage() {
     [history, exercises, displayName, today],
   );
   const sessionLabel = days.find((d) => d.key === day)?.session ?? 'Session';
+  const playerExercises = useMemo<PlayerExercise[]>(
+    () =>
+      exercises.map((ex) => {
+        const n = displayName(ex);
+        return { name: n, media: null, muscle: ex.muscle, sets: ex.sets, rest: ex.rest, cue: n === ex.name ? (ex.cues[0] ?? null) : null };
+      }),
+    [exercises, displayName],
+  );
+  const lastKg = useMemo(
+    () => Object.fromEntries(Object.entries(lastLogs).map(([k, v]) => [k, v?.weightKg])),
+    [lastLogs],
+  );
   const todaySession = history.find(
     (w) => w.date === today && w.notes === `${PLAN_NOTE_PREFIX}${sessionLabel}`,
   );
@@ -389,26 +406,33 @@ export function TrainingPage() {
             <div className="section-head">
               <h2 style={{ fontSize: 'var(--text-lg)' }}>Warm-up · 8-10 min</h2>
             </div>
-            <ul className="train-list">
-              {[...plan.warmupBase, ...(isLower ? plan.warmupLower : plan.warmupUpper)].map(
-                ([n, dose, cue]) => (
-                  <li key={n}>
-                    <span>
-                      <strong>{n}</strong>
-                      <br />
-                      <span className="dim">{cue}</span>
-                    </span>
-                    <span>{dose}</span>
-                  </li>
-                ),
-              )}
-            </ul>
+            <WarmupList rows={[...plan.warmupBase, ...(isLower ? plan.warmupLower : plan.warmupUpper)]} />
             {!isLower && (
               <p className="dim" style={{ margin: 0, fontSize: 'var(--text-caption)' }}>
                 No band "dislocates" over the head — that end position is how a shoulder comes out.
               </p>
             )}
           </section>
+
+          <button type="button" className="btn btn-primary train-play" onClick={() => setPlaying(true)}>
+            ▶ {t('Start workout')}
+            <span>
+              {exercises.length} · {sessionLabel}
+            </span>
+          </button>
+          <p className="dim train-safety">
+            {t('Stop at once for sharp pain, dizziness, chest pain or unusual breathlessness. Light weights first; good form beats heavy.')}
+          </p>
+          {playing && (
+            <WorkoutPlayer
+              title={sessionLabel}
+              exercises={playerExercises}
+              lastKg={lastKg}
+              doneNames={(todaySession?.exercises ?? []).map((e) => e.name)}
+              onLog={saveSet}
+              onClose={() => setPlaying(false)}
+            />
+          )}
 
           <p className="muted" style={{ margin: '0 4px' }}>
             {loggedCount > 0
@@ -472,14 +496,7 @@ export function TrainingPage() {
 
           <section className="panel stack">
             <h2 style={{ fontSize: 'var(--text-lg)' }}>Cooldown · 5 min</h2>
-            <ul className="train-list">
-              {(isLower ? plan.cooldownLower : plan.cooldownUpper).map(([n, d]) => (
-                <li key={n}>
-                  <span>{n}</span>
-                  <span>{d}</span>
-                </li>
-              ))}
-            </ul>
+            <WarmupList rows={isLower ? plan.cooldownLower : plan.cooldownUpper} />
           </section>
         </>
       )}
@@ -666,7 +683,7 @@ function ExerciseCard({
             lighter and recalibrate the weight.
           </div>
         )}
-        {!swap && <ExerciseGif media={ex.media} name={ex.name} />}
+        <ExerciseGif key={name} name={name} />
         <table className="ex-sets">
           <thead>
             <tr>
@@ -686,45 +703,19 @@ function ExerciseCard({
           </tbody>
         </table>
 
-        <div className="ex-swap">
-          <strong>Machine busy or broken?</strong>
-          <div className="ex-reason" role="group" aria-label="Swap reason">
-            {SWAP_REASONS.map((r) => (
-              <button
-                key={r.id}
-                type="button"
-                className={reason === r.id ? 'active' : ''}
-                aria-pressed={reason === r.id}
-                onClick={() => setReason(r.id)}
-              >
-                {r.label}
-              </button>
-            ))}
-          </div>
-          {reason === 'pain' && (
-            <p className="ex-pain" role="alert">
-              Stop — don&apos;t push through pain. Prefer the lowest-load option first.
-            </p>
-          )}
-          <div className="ex-alt-chips">
-            {alts.map((alt) => (
-              <button
-                key={alt}
-                type="button"
-                className={swap?.name === alt ? 'active' : ''}
-                disabled={busy}
-                onClick={() => void pickAlt(alt)}
-              >
-                {alt}
-              </button>
-            ))}
-          </div>
-          {swap && (
-            <button type="button" className="btn btn-ghost" disabled={busy} onClick={() => void onUndoSwap()}>
-              Undo swap / back to plan
-            </button>
-          )}
-        </div>
+        <SafetyNote name={name} />
+
+        <SwapPanel
+          planName={planName}
+          muscle={ex.muscle}
+          alts={alts}
+          reason={reason}
+          onReason={setReason}
+          current={swap?.name ?? null}
+          busy={busy}
+          onPick={(alt) => void pickAlt(alt)}
+          onUndo={() => void onUndoSwap()}
+        />
 
         <div className="ex-log">
           <div className="ex-log-head">
@@ -807,7 +798,7 @@ function ExerciseCard({
             {ex.note}
           </div>
         )}
-        <a className="btn" href={ex.demo} target="_blank" rel="noopener">
+        <a className="btn" href={swap || usingBlockB ? demoUrl(name) : ex.demo} target="_blank" rel="noopener">
           ▶ {t('Watch Hindi video')}
         </a>
       </div>

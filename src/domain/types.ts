@@ -211,6 +211,8 @@ export interface AppSettings {
   supplementLog?: Record<string, string[]>;
   /** First-run profile form completed (personal numbers are never in the source). */
   profileSetupDone?: boolean;
+  /** First-open app tour finished. */
+  tourDone?: boolean;
   /** App language: English or Urdu (main screens). */
   language?: 'en' | 'ur';
   /** Sunday of the last weekly report the user dismissed. */

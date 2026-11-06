@@ -31,7 +31,8 @@ npm run typecheck && npm test && npm run lint && npm run build
 Rebuild the training plan (media ids from PulseCap's exercise library):
 
 ```bash
-python3 scripts/build-plan.py scripts/exercise-media.json
+python3 scripts/build-plan.py scripts/gif-library.json
+python3 scripts/build-media-map.py scripts/gif-library.json src/domain/trainingPlan.json src/domain/exerciseMedia.json
 ```
 
 Install on iPhone: open the site in Safari → Share → **Add to Home Screen**.

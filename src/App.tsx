@@ -14,6 +14,7 @@ import { applyTheme } from './lib/theme';
 import { applyLanguage } from './i18n/useT';
 import { StickerOverlay } from './components/StickerOverlay';
 import { ProfileSetup } from './components/ProfileSetup';
+import { AppTour } from './components/AppTour';
 import { SettingsPage } from './pages/SettingsPage';
 import { BodyMapPage } from './pages/BodyMapPage';
 import { BodyIntelligencePage } from './pages/BodyIntelligencePage';
@@ -109,6 +110,7 @@ export default function App() {
         </main>
         <NightlyTruthCheck />
         <StickerOverlay />
+        <AppTour />
         {toast && (
           <div className="toast" role="status">
             {toast}
