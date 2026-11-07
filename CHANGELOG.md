@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.2.0 — Daily cardio after weights (2026-11-07)
+
+- **Cardio card on Train, every day:** Treadmill or Elliptical toggle (coach pick dotted: elliptical on back and leg days, easier on tired knees), with the machine animation.
+- **Minute by minute:** a table of warm-up, main part and cool-down with time, speed (km/h, mph conversion) and incline, or elliptical resistance level. How it feels for each part.
+- **Steps up with the plan:** weeks 1-3 incline walk 4.5 km/h at 4% (12 min), weeks 4-7 4.8 km/h at 6% (15 min), week 8 on 2-min hills at 5.0 km/h and 8% (6 rounds). Elliptical: level 3, then 5, then 7/5 intervals. Leg days are shorter. Deload lighter. Ramadan: flat and easy, after iftar only. Saturday 30-min walk. Sunday optional easy walk.
+- **Guided timer:** full screen, counts each part down, says the next speed, incline or level, 3-2-1 beeps, pause, screen stays on. Logs a cardio workout with the real minutes; or "Mark done".
+- **Safety:** easy-cardio heart-rate band from her birth year (talk test first), "spotter not needed", step-by-step safe use of each machine (safety key, getting on and off), stop signs.
+
 ## v1.1.0 — Workout player, safety notes, verified animations (2026-11-06)
 
 - **Start workout:** full-screen player, one set at a time: big animation, set dots, rest countdown (+15 s / skip), 3-2-1 beeps, voice cues (device voice; Urdu when an Urdu voice is installed), screen stays on. Logs the top set like the card.

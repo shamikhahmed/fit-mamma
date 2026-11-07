@@ -13,6 +13,8 @@ import { SafetyNote } from '../components/SafetyNote';
 import { WorkoutPlayer } from '../components/WorkoutPlayer';
 import type { PlayerExercise } from '../domain/workoutPlayer';
 import { WarmupList } from '../components/WarmupList';
+import { CardioCard } from '../components/CardioCard';
+import { CARDIO_NOTE_PREFIX } from '../domain/cardioPlan';
 import { demoUrl } from '../domain/exerciseMedia';
 import { workoutSticker } from '../domain/stickers';
 import { shouldForceBasic } from '../health/scores';
@@ -195,7 +197,29 @@ export function TrainingPage() {
   if (!settings) return null;
   const macros = macrosFor(settings, today);
   const isLower = day === 'legs' || day === 'lower';
-  const cardio = (plan.cardio as Record<string, { title: string; how: string[] }>)[day];
+  const cardioDone = history.find((w) => w.date === today && w.type === 'cardio' && w.notes?.startsWith(CARDIO_NOTE_PREFIX));
+  const canLogCardio = day === todayKey;
+  const cardioCard = (
+    <CardioCard
+      day={day}
+      date={ref}
+      birthYear={settings.birthYear}
+      canLog={canLogCardio}
+      doneMin={canLogCardio && cardioDone ? (cardioDone.durationMin ?? 0) : null}
+      onLog={async (machine, minutes) => {
+        await repo.upsertWorkout({
+          id: cardioDone?.id,
+          date: today,
+          type: 'cardio',
+          durationMin: minutes,
+          notes: `${CARDIO_NOTE_PREFIX}${machine === 'treadmill' ? 'Treadmill' : 'Elliptical'}`,
+        });
+        await Promise.all([loadHistory(), refreshDay()]);
+        setToast(`Cardio logged · ${minutes} min`);
+        celebrate({ emoji: '🏃‍♀️', title: 'Cardio done!', sub: `${minutes} min` });
+      }}
+    />
+  );
 
   const saveSet = async (name: string, weightKg: number | undefined, reps: number | undefined) => {
     const ex: WorkoutExercise = { name, weightKg, reps, sets: 1, notes: 'top set' };
@@ -387,6 +411,8 @@ export function TrainingPage() {
         </section>
       )}
 
+      {(day === 'rest' || day === 'core') && cardioCard}
+
       {day === 'pump' && (
         <section className="panel stack">
           <h2 style={{ fontSize: 'var(--text-lg)' }}>{plan.birthdayPump.title}</h2>
@@ -483,16 +509,7 @@ export function TrainingPage() {
             })}
           </section>
 
-          {cardio && (
-            <section className="panel stack">
-              <h2 style={{ fontSize: 'var(--text-lg)' }}>Cardio · {cardio.title}</h2>
-              <ul className="ex-cues">
-                {cardio.how.map((h) => (
-                  <li key={h}>{h}</li>
-                ))}
-              </ul>
-            </section>
-          )}
+          {cardioCard}
 
           <section className="panel stack">
             <h2 style={{ fontSize: 'var(--text-lg)' }}>Cooldown · 5 min</h2>
