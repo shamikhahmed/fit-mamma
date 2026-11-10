@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.1 — Right animation for the glute kickback (2026-11-10)
+
+- **Cable glute kickback** now shows the standing hip-extension animation (glutes). It showed a triceps kickback before: the source library labels that clip "Cable Kickback". A test keeps the triceps clip out.
+
 ## v1.2.0 — Daily cardio after weights (2026-11-07)
 
 - **Cardio card on Train, every day:** Treadmill or Elliptical toggle (coach pick dotted: elliptical on back and leg days, easier on tired knees), with the machine animation.

@@ -45,7 +45,7 @@ EXACT = {
     '45-degree back extension, weighted': 'Hyperextensions', 
     'neck mobility': 'Neck Side Stretch', 'farmer carry / dead bug': "Farmer's Walk",
     'goblet squat to bench': 'Goblet Squat',
-    'dumbbell kickback': 'Tricep Kickback', 'cable glute kickback': 'Cable Kickback', 'side bend with dumbbell': '45° Side Bend',
+    'dumbbell kickback': 'Tricep Kickback', 'cable glute kickback': 'Cable Standing Hip Extension', 'side bend with dumbbell': '45° Side Bend',
     'cable front raise': 'Cable Front Raise', 
     'lat pulldown, close grip': 'Close-Grip Lat Pulldown', 'chest press machine, light': 'Machine Chest Press',
     'seated row machine': 'Seated Machine Row', 'rope triceps pushdown': 'Cable Tricep Pushdown — Rope',
