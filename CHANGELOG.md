@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.2 — Animations checked one by one again (2026-11-11)
+
+- **One-arm dumbbell row** shows the one-arm row on a bench (it showed a two-arm bent-over row).
+- **Shoulder press machine, Rear delt fly machine, Preacher curl machine** have animations again, each matched to the library's own machine clip and checked by eye (v1.1.0 left them out).
+- **Reduce Motion:** the still picture shown instead of the moving clip now falls back to GitHub like every animation, so it never stays blank when the CDN refuses a file.
+- Every mapped name points at a clip that exists (tested), and a test pins the four fixes above.
+
 ## v1.2.1 — Right animation for the glute kickback (2026-11-10)
 
 - **Cable glute kickback** now shows the standing hip-extension animation (glutes). It showed a triceps kickback before: the source library labels that clip "Cable Kickback". A test keeps the triceps clip out.
